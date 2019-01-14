@@ -1,0 +1,24 @@
+{
+  "name": "hui-validator",
+  "version": "0.0.1",
+  "description": "a simple javascript validate function",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alucardlockon/hui-validator.git"
+  },
+  "keywords": [
+    "validator",
+    "hui"
+  ],
+  "author": "alucardlockon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alucardlockon/hui-validator/issues"
+  },
+  "homepage": "https://github.com/alucardlockon/hui-validator#readme"
+}
