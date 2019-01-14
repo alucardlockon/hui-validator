@@ -54,7 +54,7 @@ export default function (valueObj, rules, onValidateFail) {
 
     // 可为空
     if (rule.nullable && (value === ''|| value === null)) {
-      return true
+      continue
     }
 
     // 长度检查
