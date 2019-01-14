@@ -1,7 +1,7 @@
 export default function (valueObj, rules, onValidateFail) {
-  for (var i = 0; i < rules.length; i++) {
+  for (let i = 0; i < rules.length; i++) {
     const rule = rules[i]
-    const value = this.valueObj[rule.prop] != null ? this.valueObj[rule.prop] + '' : ''
+    const value = valueObj[rule.prop] != null ? valueObj[rule.prop] + '' : ''
     let reg
     let msg = ''
     switch (rule.type) {

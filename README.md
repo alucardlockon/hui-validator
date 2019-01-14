@@ -10,8 +10,8 @@ npm i hui-validator
 import huiValidator from 'hui-validator'
 
 const rules = [
- {id:'usernmae',name:'用户名', type:'notnull', max: 10, min: 3, message:'用户名不能为空'},
- {prop:data.age,name:'number', type:'regexp', regexp: /\d+/, nullable: true }
+ {prop:'usernmae',name:'用户名', type:'notnull', max: 10, min: 3, message:'用户名不能为空'},
+ {prop:'age',name:'number', type:'regexp', regexp: /\d+/, nullable: true }
 ]
 
 // 参数分别为验证对象,验证规则，失败回调(用来显示消息)
