@@ -1,6 +1,6 @@
 {
   "name": "hui-validator",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "a simple javascript validate function",
   "main": "index.js",
   "private": false,
